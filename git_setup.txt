@@ -1,0 +1,12 @@
+cd desktop
+mkdir 221066labmid
+git init
+touch file.txt
+git add .
+git commit -m "file added in repo"
+git add remote add origin <url from github repo>
+git push origin main
+git branch develop
+git branch feature/dbservice
+git branch feature/cacheservice
+touch git_setup.txt
